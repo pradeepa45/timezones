@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root{
+  /* padding: 10% 20% 15% 20%; */
+  background-image: url('bgi.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#dataFetchedBox{
+  padding: 8% 5% 10% 5%;
+}
+
+div#myHeader.ui.container{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+#loader-box{
+  padding-top: 10%;
+  padding-bottom: 26.5%;
+}
+
+div.ui.large.left.aligned.segment , #onemore{
+  background-color: peru;
+}
+
