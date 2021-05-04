@@ -37,7 +37,7 @@ class App extends Component {
       var box1 = document.getElementById('selectedTimezone');
       // console.log(box1);
       box1.value = this.state.selectedTimezone;
-      const apiUrl2 = 'http://worldtimeapi.org/api/timezone/'
+      const apiUrl2 = 'https://worldtimeapi.org/api/timezone/'
       axios.get(apiUrl2 + `${this.state.selectedTimezone}`)
         // console.log(this.state.selectedTimezone)
         .then((response) => {
