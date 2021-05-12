@@ -17,6 +17,8 @@ code {
   background-image: url('bgi.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
+  height : 100vh;
+  overflow-y:scroll;
 }
 
 #dataFetchedBox{
